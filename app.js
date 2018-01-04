@@ -10,7 +10,15 @@ app.use("/node_modules", express.static(__dirname + '/node_modules'));
 
 
 app.get('/', function(req, res) {
-	res.sendFile(__dirname + '/index.html');
+    res.sendFile(__dirname + '/test-1/test1.html');
+});
+
+app.get('/test-1', function(req, res) {
+	res.sendFile(__dirname + '/test-1/test1.html');
+});
+
+app.get('/test-2', function(req, res) {
+	res.sendFile(__dirname + '/test-2/test2.html');
 });
 
 
