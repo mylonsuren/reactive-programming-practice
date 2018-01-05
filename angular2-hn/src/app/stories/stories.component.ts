@@ -13,7 +13,6 @@ export class StoriesComponent implements OnInit {
         this.items = Array(30);
     }
 
-    ngOnInit() {
-    }
+    ngOnInit() {}
 
 }
