@@ -13,6 +13,7 @@ import { DomainPipe } from './domain.pipe';
 import { ItemCommentsComponent } from './item-comments/item-comments.component';
 import { CommentTreeComponent } from './comment-tree/comment-tree.component';
 import { CommentComponent } from './comment/comment.component';
+import { UserComponent } from './user/user.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { CommentComponent } from './comment/comment.component';
     DomainPipe,
     ItemCommentsComponent,
     CommentTreeComponent,
-    CommentComponent
+    CommentComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule, HttpModule, routing
