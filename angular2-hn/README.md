@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.3.
 
-#### Overview
+### Overview
 
 angular2-hn is a small application using Angular 2 and RxJS. It acts as a simple Hacker News client.
 
