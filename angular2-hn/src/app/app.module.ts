@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule } from '@angular/http';
 import { NgModule } from '@angular/core';
 
-
+import { routing } from './app.routes';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { StoriesComponent } from './stories/stories.component';
@@ -24,7 +24,7 @@ import { ItemCommentsComponent } from './item-comments/item-comments.component';
     ItemCommentsComponent
   ],
   imports: [
-    BrowserModule, HttpModule
+    BrowserModule, HttpModule, routing
   ],
   providers: [HackerNewsAPIService],
   bootstrap: [AppComponent]
