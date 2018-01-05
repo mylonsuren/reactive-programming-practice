@@ -9,6 +9,8 @@ import { StoriesComponent } from './stories/stories.component';
 import { FooterComponent } from './footer/footer.component';
 import { ItemComponent } from './item/item.component';
 import { HackerNewsAPIService } from './hackernews-api.service';
+import { DomainPipe } from './domain.pipe';
+import { ItemCommentsComponent } from './item-comments/item-comments.component';
 
 
 @NgModule({
@@ -17,7 +19,9 @@ import { HackerNewsAPIService } from './hackernews-api.service';
     HeaderComponent,
     StoriesComponent,
     FooterComponent,
-    ItemComponent
+    ItemComponent,
+    DomainPipe,
+    ItemCommentsComponent
   ],
   imports: [
     BrowserModule, HttpModule
