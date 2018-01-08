@@ -8,7 +8,7 @@ Currency Conversion is a simple application that converts the given amount to an
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to (localhost:4200)[http://localhost:4200/]. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to [localhost:4200](http://localhost:4200/). The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
