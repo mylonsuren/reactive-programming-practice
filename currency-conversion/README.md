@@ -1,6 +1,10 @@
-# CurrencyConversion
+# Currency-Conversion
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.3.
+
+## Overview
+
+Currency Conversion is a simple application that converts the given amount to any currency.
 
 ## Development server
 
